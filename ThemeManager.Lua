@@ -7,19 +7,27 @@ do
 
     ThemeManager.BuiltInThemes = {
         ['Default']   = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
-        
-        -- Revamped Pink: Bright, soft pink girlcore vibes
-        ['Pink']      = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ffc0cb","AccentColor":"ff69b4","BackgroundColor":"ffe4e1","OutlineColor":"ffb6c1"}') },
-        
-        ['Fatality']  = { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
-        ['Jester']    = { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
-        ['Mint']      = { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 
-        -- Revamped DarkPink: Like an evil queen drank black coffee, pure dark ass pink glory
-        ['DarkPink']  = { 6, httpService:JSONDecode('{"FontColor":"ffb6c1","MainColor":"4a0033","AccentColor":"ad1457","BackgroundColor":"2a001a","OutlineColor":"560027"}') },
+        -- PinkDream (Light and Soft)
+        ['PinkDream'] = { 2, httpService:JSONDecode('{"FontColor":"4a004a","MainColor":"ffc0cb","AccentColor":"ff69b4","BackgroundColor":"fff0f5","OutlineColor":"ff1493"}') },
 
-        ['Ubuntu']    = { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
-        ['Quartz']    = { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
+        -- DarkDesire (True Dark Pink Vibe)
+        ['DarkDesire'] = { 3, httpService:JSONDecode('{"FontColor":"ffb6c1","MainColor":"3b002c","AccentColor":"8b0055","BackgroundColor":"1e0017","OutlineColor":"ad0066"}') },
+
+        -- ToxicNight (Neon Green + Black)
+        ['ToxicNight'] = { 4, httpService:JSONDecode('{"FontColor":"00ff00","MainColor":"0a0a0a","AccentColor":"39ff14","BackgroundColor":"050505","OutlineColor":"007f0e"}') },
+
+        -- SunsetBlaze (Orange-Red Warm)
+        ['SunsetBlaze'] = { 5, httpService:JSONDecode('{"FontColor":"fff5e1","MainColor":"ff4500","AccentColor":"ff6347","BackgroundColor":"330000","OutlineColor":"ff3300"}') },
+
+        -- Frostbite (Icy Blue Theme)
+        ['Frostbite'] = { 6, httpService:JSONDecode('{"FontColor":"e0ffff","MainColor":"1c1f26","AccentColor":"00ffff","BackgroundColor":"0f1117","OutlineColor":"3a4b57"}') },
+
+        -- MidnightPurple (Dark Purple King)
+        ['MidnightPurple'] = { 7, httpService:JSONDecode('{"FontColor":"d8bfff","MainColor":"2a003f","AccentColor":"8000ff","BackgroundColor":"1b002b","OutlineColor":"5e00a3"}') },
+
+        -- Sandstorm (Desert Gold-ish)
+        ['Sandstorm'] = { 8, httpService:JSONDecode('{"FontColor":"332200","MainColor":"f4e2d8","AccentColor":"d2b48c","BackgroundColor":"c19a6b","OutlineColor":"8b5a2b"}') },
     }
 
     function ThemeManager:ApplyTheme(theme)
